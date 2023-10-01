@@ -15,5 +15,5 @@ a costumer node is realized to remove anything/inpainting anything from a pictur
 
 # Acknowledgement
 - [lama](https://github.com/advimman/lama) 
- -[inpatinting anything](https://github.com/geekyutao/Inpaint-Anything)
+- [inpatinting anything](https://github.com/geekyutao/Inpaint-Anything)
 
