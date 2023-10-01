@@ -1,6 +1,6 @@
 # Comfyui-Lama
 
-a costumer node is realized to remove anything/inpainting anything from a picture by mask inpainting. Many thanks to brilliant work 🔥🔥🔥 of project [lama] (https://github.com/advimman/lama) and [inpatinting anything](https://github.com/geekyutao/Inpaint-Anything)!
+a costumer node is realized to remove anything/inpainting anything from a picture by mask inpainting. Many thanks to brilliant work 🔥🔥🔥 of project [lama](https://github.com/advimman/lama) and [inpatinting anything](https://github.com/geekyutao/Inpaint-Anything)!
 
 # Nodes
 - LamaaModelLoad
