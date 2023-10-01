@@ -5,10 +5,11 @@ a costumer node is realized to remove anything/inpainting anything from a pictur
 # Nodes
 - LamaaModelLoad
 - LamaApply
-- YamlConfigLoader
+- YamlConfigLoader:  Because lama load models with yaml config file. So I add a extra node which could transfer yaml file to object which can easily handle in following process.
    
 # Models requirement
 - [big-lama](https://huggingface.co/hhhzzz/big-lama/resolve/main/big-lama.ckpt) (put into models folder of customer node)
+
 
 # To-do list
 - example workfolw
