@@ -1,7 +1,12 @@
 import torch
-from kornia import SamplePadding
 from kornia.augmentation import RandomAffine, CenterCrop
 
+import kornia
+from packaging import version
+if version.parse(kornia.__version__) <= version.parse("0.5.0"):
+    from kornia import SamplePadding 
+else:
+    from kornia.constants import SamplePadding
 
 class FakeFakesGenerator:
     def __init__(self, aug_proba=0.5, img_aug_degree=30, img_aug_translate=0.2):
