@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_lama"
+description = "Nodes: LamaaModelLoad, LamaApply, YamlConfigLoader. a costumer node is realized to remove anything/inpainting anything from a picture by mask inpainting.[w/WARN:This extension includes the entire model, which can result in a very long initial installation time, and there may be some compatibility issues with older dependencies and ComfyUI.]"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["pyyaml", "tqdm", "numpy", "easydict==1.9.0", "scikit-image", "scikit-learn", "opencv-python", "tensorflow", "joblib", "matplotlib", "pandas", "albumentations==0.5.2", "hydra-core==1.1.0", "pytorch-lightning==1.2.9", "tabulate", "kornia==0.5.0", "webdataset", "packaging", "wldhx.yadisk-direct"]
+
+[project.urls]
+Repository = "https://github.com/hhhzzyang/Comfyui_Lama"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui_Lama"
+Icon = ""
